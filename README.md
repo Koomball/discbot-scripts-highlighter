@@ -3,7 +3,7 @@ Website code block syntax highlighter for BDScript, Forgescript &amp; aoi.js
 
 # How to Use
 put the specified language tag in the class attribute of a codeblock, shown like below.
-```
+```html
 <pre><code class="lang-tag">
 code here
 </code></pre>
