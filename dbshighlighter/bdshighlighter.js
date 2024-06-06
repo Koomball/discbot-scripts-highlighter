@@ -55,7 +55,6 @@ keys = [  "$addButton",
   "$botNode",
   "$botOwnerID",
   "$botTyping",
-  "$c",
   "$calculate",
   "$catch",
   "$categoryChannels",
@@ -97,6 +96,7 @@ keys = [  "$addButton",
   "$customEmoji",
   "$customID",
   "$customImage",
+  "$c",
   "$date",
   "$day",
   "$defer",
@@ -113,7 +113,6 @@ keys = [  "$addButton",
   "$displayName",
   "$displayName",
   "$divide",
-  "$dm",
   "$dmChannelID",
   "$dm",
   "$editButton",
@@ -125,8 +124,8 @@ keys = [  "$addButton",
   "$editSelectMenu",
   "$editSplitText",
   "$editThread",
-  "$else",
   "$elseif",
+  "$else",
   "$embedSuppressErrors",
   "$embeddedURL",
   "$emoteCount",
@@ -448,10 +447,13 @@ arr = arr.replaceAll("$elseif", '<span style="color: #C27BD4;">' + "$elseif" + '
 // SYMBOLS
 arr = arr.replaceAll("[", '<span style="color: #779766;">' + "[" + '</span>');
 arr = arr.replaceAll("]", '<span style="color: #779766;">' + "]" + '</span>');
-arr = arr.replaceAll("\;/", '<span style="color: #779766;">' + "\;" + '</span>');
+arr = arr.replaceAll("\;/", '<span style="color: #779766;">' + ";" + '</span>');
 
 cb[b].innerHTML = arr; 
 try {
   arr = cb[b + 1].textContent;
 } catch (error) { console.log("highlight success") };
 };
+
+
+
