@@ -4,7 +4,7 @@ Website code block syntax highlighter for BDScript, Forgescript &amp; aoi.js
 # How to Use
 link the highlighters. <br>
 ***MUST BE LINKED AT BOTTOM OF SITE***
-```
+```html
 <script src="path/to/bdshighlighter.js"></script>
 <link rel="stylesheet" href="path/to/styles/style-dark.css">
 ```
