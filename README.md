@@ -26,7 +26,7 @@ A code block syntax highlighter for BDScript, ForgeScript, and aoi.js.
    ### Available Language Tags:
 
    - `bdscript`
-   - `forgescript` *(in development)*
+   - `forgescript`
    - `aoi` *(in development)*
 
 3. **Available Styles:**
@@ -39,9 +39,8 @@ A code block syntax highlighter for BDScript, ForgeScript, and aoi.js.
 ## To-Do List
 
 - Finalize colors and optimizations for BDScript.
-- Add support for ForgeScript.
 - Add support for aoi.js.
 
 ---
 
-Originally made by @.koomball and Modified by me (@clyders).
+Originally made by [@Koomball](https://github.com/Koomball) and Modified by [@Clyders](https://github.com/Clyders).
