@@ -9,8 +9,9 @@ A code block syntax highlighter for BDScript, ForgeScript, and aoi.js.
    Ensure the following script and stylesheet links are included at the bottom of your website, right before the closing `</body>` tag:
 
    ```html
-   <script src="path/to/bdshighlighter.js"></script>
-   <link rel="stylesheet" href="path/to/styles/style-dark.css">
+   <script src="your-path/bdshighlighter.js"></script>
+   // Change this       ^^^ to your preferred language highlighter file
+   <link rel="stylesheet" href="your-path/styles/style-dark.css">
    ```
 
 2. **Add Language Tags to Code Blocks:**
